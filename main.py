@@ -24,8 +24,8 @@ nieznane_mac =[]
 device = {
     'device_type': 'linux',
     'host':   '192.168.5.82',
-    'username': 'ubuntu',
-    'password': 'linux123',
+    'username': 'username',
+    'password': 'password',
 }
 
 connection = ConnectHandler(**device)
