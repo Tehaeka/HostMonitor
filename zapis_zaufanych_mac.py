@@ -2,8 +2,8 @@ from netmiko import ConnectHandler
 device = {
     'device_type': 'linux',
     'host':   '192.168.5.82',
-    'username': 'ubuntu',
-    'password': 'linux123',
+    'username': 'username',
+    'password': 'password',
 }
 mac=[]
 connection = ConnectHandler(**device)
